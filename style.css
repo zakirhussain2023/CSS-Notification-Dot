@@ -1,27 +1,28 @@
 .button{
-		position:relative;
+		margin:6px;
 		border:1px solid #dfdfdf;
 		padding:30px;
 		
 }
-.button>a{
+.dot>a{
 	color:white;
 	text-decoration:none;
 	background-color:#086afc;
 	padding:10px 15px;
 	margin-top:0px;
-	display:inline-block;
 	border-radius:3px;	
-	top:50px;
-	right:100px;
+	position:relative;
+	border:none;
+	
 }
-.dot{
+a:after{
 	background-color:red;
 	height:10px;
+	content:"";
 	width:10px;
 	border-radius:50%;
 	position:absolute;
-	border:2px solid #fff;
-	top:23px;
-	left:93px;
+	border:1px solid #fff;
+	top:-3px;
+	left:64px;
 }
